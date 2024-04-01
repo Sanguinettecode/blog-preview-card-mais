@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --font-family: 'Figtree', sans-serif;
+    --yellow:#F4D04E;
+    --gray:#7F7F7F;
+    --black:#111111;
+    --white:#FFFFFF;
+};
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+p, h1 {
+    font-family: var(--font-family);
+}
+
+p { 
+    font-size: 16px;
+}
+
+.container {
+    background-color: var(--yellow);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--white);
+    width: 24rem;
+    height: 32.6rem;
+    align-items: center;
+    border-radius: 1.25rem ;
+    padding: 1.5rem;
+
+    -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
+
+    transition: box-shadow .75s;
+}
+
+.card:hover {
+    -webkit-box-shadow: 16px 16px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 16px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 16px 16px 0px 0px rgba(0,0,0,0.75);
+}
+
+.card__img img {
+    width: 100%;
+    border-radius: 0.625rem;
+}
+
+.card__content_btn {
+    margin-top: 1.5rem;
+}
+
+.card__content {
+    display: flex;
+    height: 194px;
+    gap: 0.75rem;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card__content h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card__content_text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--gray)
+}
+
+.btn {
+    padding: 0.25rem 0.75rem ;
+    border-radius: 0.25rem;
+    border:none
+}
+
+.btn--yellow {
+    font-weight: 800;
+    background-color: var(--yellow);
+}
+
+.card__profile {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card__profile img {
+    width: 2rem;
+    margin-right: 0.34rem;
+}
+
+.card__profile p {
+    font-weight: 800;
+    color: var(--black)
+}
