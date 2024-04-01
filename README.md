@@ -18,7 +18,11 @@ Essa convensão tem como propósito, melhorar a legibilidade do código e aprens
 
 ## Acesse pré-visualização
 
-[Blog_post_card - preview](https://sanguinettecode.github.io/blog-preview-card/)
+[Blog_post_card - preview](https://sanguinettecode.github.io/blog-preview-card-mais/)
 
+## Fontes úteis
+
+[BEM - Block, Element, Modify](https://css-tricks.com/bem-101/)
+[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 **Have fun building!** 🚀
